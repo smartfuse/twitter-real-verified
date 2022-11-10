@@ -1,0 +1,27 @@
+{
+    "name": "Twitter Real Verified",
+    "version": "1.0.0",
+    "description": "Only show check for actually verified users",
+    "permissions": [
+        "declarativeNetRequestWithHostAccess",
+        "declarativeNetRequestFeedback"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "icons": {
+        "16": "action.png",
+        "32": "action.png",
+        "48": "action.png",
+        "128": "action.png"
+    },
+    "action": {
+        "default_icon": "action.png",
+        "default_title": "Twitter Real Verified",
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    }
+}
